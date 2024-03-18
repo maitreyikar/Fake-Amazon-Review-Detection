@@ -115,7 +115,7 @@ for row in rows:
     urls = row.split(",")[2::2]
     for url in urls:
         print(url,"\n\n")
-        html_datas = reviewsHtml(url, 6)
+        html_datas = reviewsHtml(url, 15)
         for html_data in html_datas:
             review = getReviews(html_data)
             reviews += review
@@ -125,4 +125,4 @@ df_reviews = pd.DataFrame(reviews)
 
 
 # Save data
-df_reviews.to_csv('Scraped_reviews.csv', index=False)
+df_reviews.to_csv('Scraped_reviews2.csv', index=False)
