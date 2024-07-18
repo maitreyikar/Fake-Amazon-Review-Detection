@@ -1,4 +1,5 @@
 # Fake-Amazon-Review-Detection
+This project aims to combats fake consumer reviews using a DFFNN to detect fraudulent content.
 
 1. Our proposed model uses a publicy available amazon review dataset from kaggle (https://www.kaggle.com/datasets/lievgarcia/amazon-reviews). The file can be found at "datasets/amazon_reviews.txt"
 
